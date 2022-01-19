@@ -1,0 +1,30 @@
+.footer {
+    height: auto;
+    background-color: $black;
+    margin: 0;
+    padding: 0;
+    &__contacto {
+        align-self: center;
+        text-align: center;
+    }
+    /*&__input {} */
+    &__item {
+        display: inline;
+        padding-right: 20px;
+    }
+    &__list {
+        color: $white;
+    }
+    &__texto {
+        text-align: center;
+        align-self: center;
+        &--p {
+            color: $white;
+        }
+    }
+}
+
+
+/* .fas {}
+
+.fa-eye {} */

@@ -1,0 +1,39 @@
+//color
+$white:#ffffff;
+$black:#000000;
+$sable:#060606;
+$charcoal:#2E1503;
+$tangerine:#FFAF6D;
+$orange:#FFA500;
+$gray:#6d6c6c;
+//tipografia
+$poppins: 'Poppins',
+sans-serif;
+$ubuntu: 'Ubuntu',
+sans-serif;
+$regular:400;
+$bold:700;
+//tamaño
+$xxxxx-large:50px;
+$xxxx-large:45px;
+$xxx-large:40px;
+$xx-large:35px;
+$x-large:30px;
+$large:20px;
+$medium:16px;
+$small:14px;
+$x-small:12px;
+// tamaño
+$min-xs: 1px;
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1400px;
+$max-xs: 575px;
+$max-sm: 767px;
+$max-md: 991px;
+$max-lg: 1199px;
+$max-xl: 1399px;
+$max-xxl: 1800px;
+$breakpoints: ( 'xs': (min-width: $min-xs), 'sm': (min-width: $min-sm), 'md': (min-width: $min-md), 'lg': (min-width: $min-lg), 'xl': (min-width: $min-xl), 'xxl': (min-width: $min-xxl)) !default;

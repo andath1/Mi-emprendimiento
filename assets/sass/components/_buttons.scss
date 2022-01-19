@@ -1,0 +1,10 @@
+.footer__button {
+    color: $black;
+    background-color: $tangerine;
+    font-family: $poppins;
+    font-weight: $regular;
+    &:hover {
+        color: $black;
+        background-color: $white;
+    }
+}

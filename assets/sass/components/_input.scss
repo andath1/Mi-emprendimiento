@@ -1,0 +1,10 @@
+.footer__input {
+    color: $black;
+    background-color: $white;
+    font-family: $poppins;
+    font-weight: $regular;
+    &:hover {
+        color: $black;
+        background-color: $tangerine;
+    }
+}

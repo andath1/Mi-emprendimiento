@@ -1,0 +1,77 @@
+.navbar {
+    background-color: $black;
+    @include respond-to('md') {
+        width: 100%;
+    }
+    &__container {
+        align-items: center;
+    }
+    &__item {
+        padding-right: 20px;
+        color: $white;
+        text-decoration: none;
+        display: inline;
+    }
+    &__item a {
+        text-decoration: none;
+        list-style: none;
+        color: $white;
+    }
+    &__list {
+        &--derecha {
+            padding-left: 300px;
+        }
+    }
+    &__logo {
+        width: 30px;
+        align-self: center;
+        padding-left: 30px;
+        padding-top: 5px;
+    }
+    &__menu {
+        display: none;
+    }
+}
+
+.fa-bars {
+    background-color: $white;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+
+/*.fas {} */
+
+@media (min-width:$min-xs)and (max-width:$max-xs) {
+    .navbar {
+        height: 50px;
+        &__menu {
+            display: flex;
+        }
+        &__list--derecha {
+            display: none;
+        }
+    }
+    .fa-bars {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 50p;
+    }
+}
+
+@media(min-width:$min-sm)and (max-width:$max-xxl) {
+    .navbar {
+        &__menu {
+            display: none;
+        }
+        &__list--derecha {
+            display: block;
+        }
+    }
+    .fa-bars {
+        display: none;
+    }
+}

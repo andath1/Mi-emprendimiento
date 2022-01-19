@@ -1,0 +1,27 @@
+@keyframes rotad {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes traslad {
+    0% {
+        transform: translateX(150px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.tca1,
+.tca2 {
+    animation: rotad 3s infinite linear;
+    transform-origin: 80% 80%;
+}
+
+.etqta {
+    animation: traslad 1.9s infinite linear;
+}

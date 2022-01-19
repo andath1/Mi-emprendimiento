@@ -1,0 +1,108 @@
+.main {
+    /*     display: flex;
+    justify-content: center;
+    column-gap: 10px; */
+    margin-bottom: 20px;
+}
+
+.cursossh {
+    border: 1px solid;
+    @include respond-to('lg') {
+        height: 100%;
+    }
+}
+
+.cursosh {
+    &__htmlcss {
+        border: 1px solid;
+        margin: 20px;
+        padding: 15px;
+    }
+    &__img {
+        width: 600px;
+    }
+    &__texto {
+        font-size: $small;
+    }
+    &__titulo {
+        font-size: $large;
+    }
+}
+
+.cursoss {
+    border: 1px solid;
+    &__img {
+        width: 600px;
+    }
+    &__sass {
+        border: 1px solid;
+        margin: 20px;
+        padding: 20px;
+    }
+    &__texto1 {
+        font-size: $small;
+    }
+    &__texto2 {
+        font-weight: $bold;
+    }
+    &__titulo {
+        font-size: $large;
+    }
+}
+
+.mascursos {
+    border: 1px solid;
+    padding: 30px;
+    &__imagen {
+        padding-top: 10px;
+        text-align: center;
+    }
+    &__img {
+        width: 150px;
+        justify-content: center;
+    }
+    &__cursos2020 {
+        text-align: center;
+    }
+    &__item a {
+        text-decoration: none;
+        font-size: $medium;
+    }
+    /*   &__list {
+        text-decoration: none;
+    } */
+    &__div {
+        text-align: center;
+    }
+    &__svg {
+        width: 150px;
+    }
+    &__texto1 {
+        font-size: $small;
+    }
+    &__texto2 {
+        text-align: center;
+        background-color: $gray;
+        font-size: $large;
+        color: $white;
+    }
+    &__titulo {
+        text-align: center;
+    }
+}
+
+.fa-eye {
+    text-align: center;
+}
+
+.fas {
+    text-align: center;
+}
+
+@media (max-width:575.98px) {
+    .main {
+        .cursosh {
+            background-color: red;
+        }
+    }
+}
